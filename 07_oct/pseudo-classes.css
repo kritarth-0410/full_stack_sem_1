@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(200, 169, 217);
+    padding: 10px 20px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.head-link{
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+.head-btn{
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.head-btn:hover{
+    background-color: black;
+    color: blanchedalmond;
+    transition-property: color;
+
+    scale: 1.1;    
+}
+
+.head-btn:active{
+    scale: 1.05;
+}   
