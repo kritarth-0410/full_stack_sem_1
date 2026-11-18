@@ -21,7 +21,6 @@
 
 
 // const items1 = document.getElementById('item-2')
-// items1.style.backgroundColor = 'red'
 // items1.style.backgroundColor = 'blue'
 
 
@@ -32,6 +31,6 @@
 // note.innerHTML = "Prices in <i>USD</i>"
 
 
-const b = document.querySelector('body')
-b.innerHTML = '<h1>Hello &copy;</h1>'
+// const b = document.querySelector('body')
+// b.innerHTML = '<h1>Hello &copy;</h1>'
 // b.innerText = '<h1>Hello &copy;</h1>'
